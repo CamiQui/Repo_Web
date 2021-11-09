@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Cocina</title>
+        <title>Contacto</title>
         <link rel="stylesheet" href="CSS/Style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="autor" content="Camila Quispe">
@@ -12,14 +12,14 @@
     
         <body id="contacto">
             <header>
-                <h1>Contacto</h1>
+                <nav>
+                    <div class="container teal borderYtoX">
+                        <a href="Index.html">HOME</a>
+                    </div>
+                </nav>
             
             </header>
-            <nav>
-                <div class="container teal borderYtoX">
-                    <a href="Index.html">HOME</a>
-                </div>
-            </nav>
+            
 
             <section class="form_wrap">
 
@@ -34,25 +34,22 @@
                     </section>
                 </section>
         
-                <form action="" class="form_contact">
+                <form action="https://formspree.io/f/xeqvbwnd" class="form_contact" method="POST">
                     <h2>Envia un mensaje</h2>
                     <div class="user_info">
                         <label for="names">Nombres *</label>
-                        <input type="text" id="names" requerid>
-        
-                        <label for="phone">Telefono / Celular</label>
-                        <input type="text" id="phone" requerid>
+                        <input type="text" id="names" name="name" requerid>
         
                         <label for="email">Correo electronico *</label>
-                        <input type="text" id="email" requerid>
+                        <input type="text" id="email" name="_replito" requerid>
         
                         <label for="mensaje">Mensaje *</label>
-                        <textarea id="mensaje" requerid></textarea>
+                        <textarea id="mensaje" name="message" requerid></textarea>
         
-                        <input type="button" value="Enviar Mensaje" id="btnSend">
+                        <button type="submit">Enviar Mensaje> </button>
                     </div>
                 </form>
-         
+                        
             </section>
             <footer>
                 <span>Camila Quispe All rights Reserved</span>
